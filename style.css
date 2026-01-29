@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-position: 0%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.openbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0,0,0.2);
+    display: 
+
+}.btn{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.openbtn a{
+    display: flex;
+    margin-bottom: -430px;
+    position: absolute;
+    justify-content: center;
+}
+.navbar{
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0,0,0.5);
+    width: 250px;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+    display: none;
+}
+.menu{
+    display: flex;
+    top: 5px;
+    position: absolute;
+    color:white;
+    font-weight: 900;
+    font-size: 2.6em;
+    margin-left: 10px;
+    padding-left: -10px;
+    letter-spacing: 2px;
+}
+.dabou{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 2.2em;
+    box-shadow: 0 0 20px ;
+    align-items: center;
+    border-radius: 5px;
+    display: 
+    
+}
+.dabou ion-icon{
+    align-items: center;
+    display: flex;
+    font-size: 1.4em;
+    cursor: pointer;
+
+}
+.dabou ion-icon:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    position: absolute;
+    justify-content: center;
+    margin-bottom: -500px;
+    font-size: 3em;
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    border-radius: 150px;
+    cursor: pointer;
+     box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+     color: white;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+}
+.facebook{
+    margin-bottom: -500px;
+    background-color: blue;
+      position: absolute;
+    justify-content: center;
+    margin-bottom: -500px;
+    font-size: 3em;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-right: -210px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+    cursor: pointer;
+    color: white;
+}
+
+.facebook:hover{
+    transform: scale(1.1);
+}
+.instagram{
+   margin-bottom: -500px;
+    background-color:white;
+      position: absolute;
+    justify-content: center;
+    margin-bottom: -500px;
+    font-size: 3em;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-right: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+    cursor: pointer;
+    color-scheme: ;
+}
+
+.instagram:hover{
+    transform: scale(1.1);
+}
+.tiktok:hover{
+    transform: scale(1.1);
+}
+.tiktok{
+     margin-bottom: -500px;
+    background-color:black;
+      position: absolute;
+    justify-content: center;
+    margin-bottom: -500px;
+    font-size: 3em;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-left: -390px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+    cursor: pointer;
+    color:white ;
+}
+.youtube{
+     margin-bottom: -500px;
+    background-color: white;
+      position: absolute;
+    justify-content: center;
+    margin-bottom: -500px;
+    font-size: 3em;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-right: -430px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+    cursor: pointer;
+    color: red;
+}
+
+.youtube:hover{
+    transform: scale(1.1);
+}
+.closen{
+    box-shadow: 0 0 20px rgba(0, 0,0,0.9);
+    background-color: blue;
+    display: flex;
+    position: absolute;
+    margin-left: -50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+.menu-kid{
+    display: block;
+    margin-top: -400px;
+    position: absolute;
+}
+.menu-kid li a{
+    text-decoration: none;
+    list-style: none;
+    color: darkblue;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.menu-kid li{
+    list-style: none;
+    margin: 2.3rem;
+}
+.menu-kid ion-icon{
+    font-size: 1.4em;
+    color: white;
+    font-weight: 900;
+}
+.menu-kid li a:hover{
+    background-color: blue;
+    height: 50px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    width: 180px;
+    position: ;
+}
+.bouton{
+    font-size: 2em;
+    font-weight: 1000;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0,0,0.99);
+    display: flex;
+
+}
+.bouton:hover{
+    transform: scale(1.2);
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.fenetre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   height: 100vh;
+   background: rgba(0, 0,0,0.5);
+   background-size: cover;
+   display: none;
+}
+
+.modal{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    padding: 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:170px ;
+    border-radius: 10px;
+
+}
+.close{
+    background-color: red;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    margin-right: -240px;
+    display: flex;
+    margin-top: -130px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.oui-non{
+    position: absolute;
+    margin-top: 100px;
+    justify-content: space-between;
+   display: flex;
+   margin-bottom: 30px;
+}
+.yes{
+    display: flex;
+    position: absolute;
+    margin-left: -130px;
+    background-color: green;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.no{
+    display: flex;
+    position: absolute;
+    margin-left: 60px;
+    background-color:red;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.text{
+    font-weight: 1000;
+    font-size: 1.3em;
+}
