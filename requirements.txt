@@ -2,8 +2,5 @@ fastapi
 uvicorn
 groq
 requests
-TTS
-torch
-torchaudio
 python-multipart
 gunicorn
